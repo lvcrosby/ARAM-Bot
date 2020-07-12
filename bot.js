@@ -268,4 +268,4 @@ client.on('message', message =>{
 // ------------------------------------- Bot Token --------------------------------------
 // Log our bot in using the token from https://discordapp.com/developers/applications/me
 // This determines which bot this script will be run on
-client.login('NzE5OTM0Mzg5NTYzMjkzNzA2.Xua4dA.MlhP4kzTxbsek_jPAmCsAXBPpo4');
+client.login('BOT TOKEN HERE');

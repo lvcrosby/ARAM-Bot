@@ -1,0 +1,31 @@
+Update notes
+-------------- 1.2 ----------------
+- Removed 'champion' from both add and remove commands
+	- New commands: !aram add 
+			!aram remove
+
+
+
+------------ 1.1 -------------
+- Added !aram add champion 
+	- Adds a champion of your desired name to champs.txt
+		- Example: !aram add champion Toscanni
+	- Can use 'champ' instead of 'champion' in the command
+	- Can only be used by users that have a role that provides them with permissions to kick other users. This can be changed.
+- Added !aram remove champion
+	- Removes a champion from champs.txt
+		- Example: !aram remove champ Jayce   or   !aram remove champ Aurelion Sol
+	- Can be used to remove Yuumi from the pool temporarily, just use !aram add champ to add her back when she's not cancer
+	- Can only be used by users that have a role that provides them with permissions to kick other users. This can be changed.
+- Added !aram list
+	- Lists all champions in champs.txt
+- Added a permission denied message, for users who attempt to use a command that they do not have sufficient permissions to use
+- Changed !aram to pull from champs.txt
+
+Planned 1.2 features
+- Change all commands to accept shortened versions (!aram a c Yone) or (!aram r c Nami) should accept the lowest number of letters that keeps it unique
+	- (!aram will still require full length)
+- !aram help 
+	- Should provide a list of commands available for that user. Most users will only be provided with !aram and !aram list currently
+	- Admin users will be provided with the full list of commands
+

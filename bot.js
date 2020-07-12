@@ -1,5 +1,5 @@
 'use strict';
-// Aram Bot V 1.1
+// Aram Bot V 1.2
 
 // Import the discord.js module
 const Discord = require('discord.js');
